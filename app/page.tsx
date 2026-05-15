@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
+import CampusLife from "@/components/CampusLife";
 
 export default function Home() {
   return (
