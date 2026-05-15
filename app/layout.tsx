@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "JG Future",
+  title: "JG University",
   description: "Modern University Landing Page",
 };
 
