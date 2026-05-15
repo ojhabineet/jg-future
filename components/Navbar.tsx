@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         <h1 className="text-2xl font-bold text-white">
-          JG Future
+          JG University
         </h1>
 
         {/* Desktop Menu */}
