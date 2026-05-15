@@ -11,7 +11,6 @@ export default function Hero() {
 
       {/* Glow Effects */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500/20 blur-3xl rounded-full" />
-
       <div className="absolute bottom-10 right-10 w-72 h-72 bg-blue-500/20 blur-3xl rounded-full" />
 
       {/* Grid Overlay */}
@@ -32,16 +31,17 @@ export default function Hero() {
 
           <h1 className="mt-6 text-5xl md:text-7xl font-bold leading-tight">
 
-            Empower Your
-            <span className="text-purple-400"> Future </span>
-            With Innovation
+            Welcome to
+            <span className="text-purple-400"> JG University</span>
+            <br />
+            Excellence in Education & Innovation
 
           </h1>
 
           <p className="mt-8 text-gray-300 text-lg leading-relaxed max-w-2xl">
-            Experience world-class education, cutting-edge technology,
-            industry-focused learning, and global career opportunities
-            designed for future leaders.
+            JG University empowers students with world-class education,
+            industry-driven programs, hands-on learning, and global exposure
+            designed to shape tomorrow’s leaders.
           </p>
 
           {/* BUTTONS */}
@@ -68,7 +68,6 @@ export default function Hero() {
               <h2 className="text-4xl font-bold text-purple-400">
                 15K+
               </h2>
-
               <p className="text-gray-400 mt-2">
                 Students
               </p>
@@ -78,7 +77,6 @@ export default function Hero() {
               <h2 className="text-4xl font-bold text-purple-400">
                 250+
               </h2>
-
               <p className="text-gray-400 mt-2">
                 Recruiters
               </p>
@@ -88,7 +86,6 @@ export default function Hero() {
               <h2 className="text-4xl font-bold text-purple-400">
                 95%
               </h2>
-
               <p className="text-gray-400 mt-2">
                 Placements
               </p>
@@ -106,21 +103,21 @@ export default function Hero() {
           className="relative"
         >
 
-          {/* Main Image Card */}
+          {/* Image Card */}
           <div className="relative rounded-[40px] overflow-hidden border border-white/10 shadow-2xl bg-white/5 backdrop-blur-xl">
 
             <img
               src="https://jguni.in/images/2.png"
-              alt="University Student"
+              alt="JG University Campus"
               className="w-full h-[700px] object-cover"
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
 
           </div>
 
-          {/* Floating Info Card */}
+          {/* Floating Card */}
           <div className="absolute -bottom-8 -left-8 bg-black/70 backdrop-blur-xl border border-white/10 rounded-3xl p-6 shadow-2xl">
 
             <h3 className="text-2xl font-bold">
